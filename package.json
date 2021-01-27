@@ -1,0 +1,29 @@
+{
+  "name": "homebridge-dobaos",
+  "version": "0.4.22",
+  "description": "plugin for homebridge to work with dobaos service",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "bin": {
+    "genDobaosAccessories": "./yml2configjson/genDobaosAccessories.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vladimir Shabunin",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "engines": {
+    "homebridge": ">=0.4.38",
+    "node": ">=8.11.1"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "color-convert": "^2.0.1",
+    "dobaos.js": "^0.4.21",
+    "js-yaml": "^3.13.1"
+  }
+}
