@@ -1,6 +1,6 @@
 {
   "name": "homebridge-dobaos",
-  "version": "0.4.22",
+  "version": "0.5.0",
   "description": "plugin for homebridge to work with dobaos service",
   "main": "index.js",
   "directories": {
